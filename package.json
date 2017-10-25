@@ -1,0 +1,33 @@
+{
+  "name": "@dcos/mesos-client",
+  "main": "./dist/index.js",
+  "module": "./src/index.js",
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dcos-labs/mesos-client"
+  },
+  "scripts": {
+    "test": "jest src",
+    "build": "babel src --out-dir dist",
+    "prepublishOnly": "npm run build"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js?$": "babel-jest"
+    }
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^21.2.0",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^21.2.1",
+    "jest-cli": "^21.2.1"
+  },
+  "dependencies": {
+    "@dcos/recordio": "0.1.3",
+    "@dcos/http-service": "0.1.0",
+    "rxjs": "5.4.3"
+  }
+}
