@@ -26,7 +26,7 @@
     "jest-cli": "^21.2.1"
   },
   "dependencies": {
-    "@dcos/recordio": "0.1.3",
+    "@dcos/recordio": "0.1.4",
     "@dcos/http-service": "0.1.0",
     "rxjs": "5.4.3"
   }
