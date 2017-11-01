@@ -2,7 +2,7 @@ import { stream as httpStream } from "@dcos/http-service";
 
 import parseRecordioRecords from "./parseRecordioRecords";
 
-const TIMEOUT = 10000;
+const TIMEOUT = 30000;
 
 export default function stream(body, baseUrl = "") {
   const resource = httpStream(`${baseUrl}/mesos/api/v1`, {
