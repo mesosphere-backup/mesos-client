@@ -4,8 +4,8 @@ import parseRecordioRecords from "./parseRecordioRecords";
 
 const TIMEOUT = 30000;
 
-export default function stream(body, baseUrl = "") {
-  const resource = httpStream(`${baseUrl}/mesos/api/v1`, {
+export default function stream(body, url = "/mesos/api/v1") {
+  const resource = httpStream(url, {
     method: "POST",
     body: JSON.stringify(body),
     responseType: "text",
