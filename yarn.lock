@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@dcos/connection-manager@0.1.2":
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/@dcos/connection-manager/-/connection-manager-0.1.2.tgz#76c850dbbd4c6e8ae886ad859158cfddca133b58"
+"@dcos/connection-manager@0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@dcos/connection-manager/-/connection-manager-0.2.0.tgz#e86b1d46f57b17d11a459fcd814864af9c16c689"
   dependencies:
     "@dcos/connections" "^0.1.0"
     immutable "^3.8.2"
@@ -13,11 +13,11 @@
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@dcos/connections/-/connections-0.1.0.tgz#01274e261bf9bb744d975ad953eb3a3eee8917bc"
 
-"@dcos/http-service@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@dcos/http-service/-/http-service-0.1.0.tgz#98fcbd4696c9a9cb1cceece62936aa8db97665f4"
+"@dcos/http-service@0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@dcos/http-service/-/http-service-0.2.0.tgz#55454371d11e35db062c50018c01bee41ff77d80"
   dependencies:
-    "@dcos/connection-manager" "0.1.2"
+    "@dcos/connection-manager" "0.2.0"
     "@dcos/connections" "0.1.0"
     rxjs "5.4.3"
 
