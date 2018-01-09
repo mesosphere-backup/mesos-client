@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.1.10"></a>
+## [0.1.10](https://github.com/dcos-labs/mesos-client/compare/v0.1.9...v0.1.10) (2018-01-09)
+
+
+### Bug Fixes
+
+* **readRecordioRecords:** copy strings to avoid meamory leak ([05cf1fa](https://github.com/dcos-labs/mesos-client/commit/05cf1fa))
+
+
+
 <a name="0.1.9"></a>
 ## [0.1.9](https://github.com/dcos-labs/mesos-client/compare/v0.1.8...v0.1.9) (2017-12-14)
 
