@@ -11,8 +11,7 @@ export default function stream(body, url = "/mesos/api/v1") {
       "Content-Type": "application/json",
       Accept: "application/json"
     }
-  })
-    .retry(-1);
+  });
 
   return parseRecordioRecords(resource);
 }
