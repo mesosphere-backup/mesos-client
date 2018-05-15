@@ -27,7 +27,11 @@
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@dcos/connections/-/connections-0.1.0.tgz#01274e261bf9bb744d975ad953eb3a3eee8917bc"
 
-"@dcos/copychars@0.1.0", "@dcos/copychars@^0.1.0":
+"@dcos/copychars@0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@dcos/copychars/-/copychars-0.1.1.tgz#97fb96f56c97ec0be584c84c6efa26e50080d10e"
+
+"@dcos/copychars@^0.1.0":
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@dcos/copychars/-/copychars-0.1.0.tgz#230bb4707323090b97874207424e260cba6c309f"
 
