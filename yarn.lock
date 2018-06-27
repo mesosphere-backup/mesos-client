@@ -27,13 +27,9 @@
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@dcos/connections/-/connections-0.1.0.tgz#01274e261bf9bb744d975ad953eb3a3eee8917bc"
 
-"@dcos/copychars@0.1.2":
+"@dcos/copychars@0.1.2", "@dcos/copychars@^0.1.2":
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/@dcos/copychars/-/copychars-0.1.2.tgz#c29c759fe6ed140689324b527cb4d6fbab71090b"
-
-"@dcos/copychars@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@dcos/copychars/-/copychars-0.1.0.tgz#230bb4707323090b97874207424e260cba6c309f"
 
 "@dcos/http-service@0.3.0":
   version "0.3.0"
@@ -43,11 +39,11 @@
     "@dcos/connections" "0.1.0"
     rxjs "5.4.3"
 
-"@dcos/recordio@0.1.6":
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/@dcos/recordio/-/recordio-0.1.6.tgz#c2bc045ef3d48c29627e008a2b326e90ed6fdbb4"
+"@dcos/recordio@0.1.7":
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/@dcos/recordio/-/recordio-0.1.7.tgz#c777633f1a0e6f200c3b733251603ae9ce6c4dd3"
   dependencies:
-    "@dcos/copychars" "^0.1.0"
+    "@dcos/copychars" "^0.1.2"
 
 abab@^1.0.3, abab@^1.0.4:
   version "1.0.4"
