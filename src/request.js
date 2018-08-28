@@ -9,5 +9,5 @@ export default function request(body, url = "/mesos/api/v1") {
       "Content-Type": "application/json",
       Accept: "application/json"
     }
-  });
+  }).map(({ response }) => response);
 }
