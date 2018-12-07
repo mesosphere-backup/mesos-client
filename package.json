@@ -29,6 +29,6 @@
     "@dcos/copychars": "0.1.2",
     "@dcos/http-service": "1.0.0",
     "@dcos/recordio": "0.1.8",
-    "rxjs": "5.4.3"
+    "rxjs": "6.3.3"
   }
 }
