@@ -31,9 +31,9 @@
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/@dcos/copychars/-/copychars-0.1.2.tgz#c29c759fe6ed140689324b527cb4d6fbab71090b"
 
-"@dcos/http-service@0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@dcos/http-service/-/http-service-0.3.0.tgz#3f174260dd48b3ddbba592319c92a1c16a7ac0a5"
+"@dcos/http-service@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@dcos/http-service/-/http-service-1.1.0.tgz#d4f9894cdec9b6fe66e8bae1335c8f63c8552264"
   dependencies:
     "@dcos/connection-manager" "0.2.1"
     "@dcos/connections" "0.1.0"
