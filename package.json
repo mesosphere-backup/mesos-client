@@ -2,7 +2,7 @@
   "name": "@dcos/mesos-client",
   "main": "./dist/index.js",
   "module": "./src/index.js",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@dcos/copychars": "0.1.2",
-    "@dcos/http-service": "1.0.0",
+    "@dcos/http-service": "1.1.0",
     "@dcos/recordio": "0.1.8",
     "rxjs": "6.3.3"
   }
