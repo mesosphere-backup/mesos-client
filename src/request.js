@@ -1,4 +1,5 @@
 import { request as httpRequest } from "@dcos/http-service";
+import { map } from "rxjs/operators";
 
 export default function request(body, url = "/mesos/api/v1") {
   return httpRequest(url, {
@@ -9,5 +10,5 @@ export default function request(body, url = "/mesos/api/v1") {
       "Content-Type": "application/json",
       Accept: "application/json"
     }
-  }).map(({ response }) => response);
+  }).pipe(map(({ response }) => response));
 }

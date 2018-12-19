@@ -1,4 +1,5 @@
-import Rx from "rxjs";
+import { from } from "rxjs";
+import { scan, reduce } from "rxjs/operators";
 import readRecordioRecords from "../readRecordioRecords";
 
 describe("#readRecordioRecords", function() {
@@ -13,10 +14,11 @@ describe("#readRecordioRecords", function() {
       "1\n12\n223\n3334\n4444"
     ];
 
-    Rx.Observable
-      .from(chunks)
-      .scan(readRecordioRecords, {})
-      .reduce((acc, current) => acc.concat(current), [])
+    from(chunks)
+      .pipe(
+        scan(readRecordioRecords, {}),
+        reduce((acc, current) => acc.concat(current), [])
+      )
       .subscribe(function(value) {
         expect(value).toEqual([
           { records: ["1"], buffer: "", position: 3 },
