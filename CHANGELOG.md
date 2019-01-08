@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.0.0"></a>
+# [1.0.0](https://github.com/dcos-labs/mesos-client/compare/v0.2.6...v1.0.0) (2018-12-19)
+
+
+### Chores
+
+* **rxjs:** update rxjs to latest version ([96d67a2](https://github.com/dcos-labs/mesos-client/commit/96d67a2))
+* **rxjs:** update rxjs to latest version ([e9f1781](https://github.com/dcos-labs/mesos-client/commit/e9f1781))
+
+
+### BREAKING CHANGES
+
+* **rxjs:** RxJS is updated to a new major version, this means all
+clients need to update as well
+
+Closes DCOS-46038.
+* **rxjs:** RxJS is updated to a new major version, this means all
+clients need to update as well
+
+Closes DCOS-46038.
+
+
+
 <a name="0.2.6"></a>
 ## [0.2.6](https://github.com/dcos-labs/mesos-client/compare/v0.2.5...v0.2.6) (2018-12-18)
 
