@@ -1,5 +1,17 @@
 language: node_js
 node_js:
-  - "6"
-  - "7"
   - "8"
+  - "node"
+  - "lts/*"
+
+jobs:
+  include:
+    # Define the release stage that runs semantic-release
+    - stage: release
+      node_js: lts/*
+      deploy:
+        provider: script
+        skip_cleanup: true
+        script:
+          - npx semantic-release
+

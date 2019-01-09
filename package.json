@@ -2,7 +2,7 @@
   "name": "@dcos/mesos-client",
   "main": "./dist/index.js",
   "module": "./src/index.js",
-  "version": "1.0.0",
+  "version": "0.0.0-dev+semantically-released",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
@@ -23,7 +23,8 @@
     "babel-jest": "^23.0.0",
     "babel-preset-env": "^1.6.1",
     "jest": "^23.0.0",
-    "jest-cli": "^23.0.0"
+    "jest-cli": "^23.0.0",
+    "semantic-release": "^15.13.1"
   },
   "dependencies": {
     "@dcos/copychars": "0.1.2",
