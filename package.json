@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@dcos/copychars": "0.1.2",
-    "@dcos/http-service": "2.0.0",
+    "@dcos/http-service": "2.3.1",
     "@dcos/recordio": "0.1.8",
     "rxjs": "6.3.3"
   }
